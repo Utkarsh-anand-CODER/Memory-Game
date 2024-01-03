@@ -20,6 +20,7 @@ body{
     gap:30px;
     background: #0d614b;
     padding: 40px 60px;
+    border-radius: 20%;
 }
 h2{
     font-size: 3em;
@@ -37,6 +38,7 @@ h2{
     text-transform: uppercase;
     cursor:pointer;
     font-weight: 600;
+    border-radius: 50%;
 }
 .reset:focus{
     color:#fff;
@@ -50,6 +52,8 @@ h2{
     gap:10px;
     transform-style: preserve-3d;
     perspective: 500px;
+    border-radius: 100%;
+    
 
 }
 .item{
@@ -63,6 +67,7 @@ h2{
     background: #fff;
     transform: rotateY(180deg);
     transition: 0.25s;
+    border-radius: 50%;
 }
 .item.boxOpen{
     transform: rotateY(0deg);
